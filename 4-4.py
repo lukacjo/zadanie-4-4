@@ -21,9 +21,11 @@ def calculator(a,b,c):
 
 
 action = input("Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie: ")
+num1= int(input("Podaj składnik 1."))
+num2= int(input("podaj składnik 2."))
+
 if action == '1':
-    num1= int(input("Podaj składnik 1."))
-    num2= int(input("podaj składnik 2."))
+
     print(f"Dodaje {num1} i {num2}\n"\
     "wynik to ",num1+num2)
 
